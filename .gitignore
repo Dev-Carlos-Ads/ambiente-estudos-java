@@ -1,0 +1,9 @@
+# Pastas de dados e configurações locais do Docker
+workspace/.vscode
+workspace/bin
+workspace/obj
+postgres_data/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

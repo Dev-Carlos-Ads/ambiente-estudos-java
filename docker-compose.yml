@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # IDE VS Code acessível pelo Navegador
+  ide:
+    image: lscr.io/linuxserver/code-server:latest
+    container_name: vscode_ide
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+      - PASSWORD=suasenha123 # Defina uma senha para acessar sua IDE
+    volumes:
+      - ./workspace:/config/workspace
+    ports:
+      - "8443:8443" # Porta visual do navegador
+    restart: unless-stopped
+
+  # Banco de Dados PostgreSQL integrado
+  database:
+    image: postgres:16-alpine
+    container_name: postgres_db
+    environment:
+      POSTGRES_DB: estudos_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

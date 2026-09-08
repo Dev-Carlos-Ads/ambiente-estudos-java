@@ -3,6 +3,7 @@ workspace/.vscode
 workspace/bin
 workspace/obj
 postgres_data/
+workspace/core.*
 
 # Arquivos de sistema
 .DS_Store

@@ -1,0 +1,14 @@
+/config/workspace/Meu-EstudoCSharp/bin/Debug/net8.0/Meu-EstudoCSharp
+/config/workspace/Meu-EstudoCSharp/bin/Debug/net8.0/Meu-EstudoCSharp.deps.json
+/config/workspace/Meu-EstudoCSharp/bin/Debug/net8.0/Meu-EstudoCSharp.runtimeconfig.json
+/config/workspace/Meu-EstudoCSharp/bin/Debug/net8.0/Meu-EstudoCSharp.dll
+/config/workspace/Meu-EstudoCSharp/bin/Debug/net8.0/Meu-EstudoCSharp.pdb
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/Meu-EstudoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/Meu-EstudoCSharp.AssemblyInfoInputs.cache
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/Meu-EstudoCSharp.AssemblyInfo.cs
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/Meu-EstudoCSharp.csproj.CoreCompileInputs.cache
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/Meu-EstudoCSharp.dll
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/refint/Meu-EstudoCSharp.dll
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/Meu-EstudoCSharp.pdb
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/Meu-EstudoCSharp.genruntimeconfig.cache
+/config/workspace/Meu-EstudoCSharp/obj/Debug/net8.0/ref/Meu-EstudoCSharp.dll

@@ -5,15 +5,16 @@ services:
   ide:
     image: lscr.io/linuxserver/code-server:latest
     container_name: vscode_ide
+    user: "root"
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=0
+      - PGID=0
       - TZ=America/Sao_Paulo
-      - PASSWORD=suasenha123 # Defina uma senha para acessar sua IDE
+      - PASSWORD=suasenha123
     volumes:
       - ./workspace:/config/workspace
     ports:
-      - "8443:8443" # Porta visual do navegador
+      - "8443:8443"
     restart: unless-stopped
 
   # Banco de Dados PostgreSQL integrado
